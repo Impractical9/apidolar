@@ -107,7 +107,7 @@ function App() {
             type="number"
             value={amount}
             onChange={handleAmountChange}
-            placeholder={`Ej: ${isUsdToCop ? '100' : '100000'}`}
+            placeholder={`Ej: ${isUsdToCop ? '100' : '100.000'}`}
           />
         </div>
 
@@ -127,7 +127,7 @@ function App() {
         Fuente: <a href="https://www.banrep.gov.co" target="_blank" rel="noopener noreferrer">Banco de la República de Colombia</a>
       </p>
       <p className="disclaimer">
-      <a href="" target="" rel="">Versión 1.1</a>
+      <h4>Versión 1.1</h4>
       </p>
       
     </div>
