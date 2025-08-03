@@ -127,9 +127,8 @@ function App() {
         Fuente: <a href="https://www.banrep.gov.co" target="_blank" rel="noopener noreferrer">Banco de la República de Colombia</a>
       </p>
       <p className="disclaimer">
-      <h4>Versión 1.1</h4>
       </p>
-      
+      <h4>Versión 1.1</h4>
     </div>
     
   );
