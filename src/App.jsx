@@ -58,6 +58,12 @@ function App() {
   if (loading) return <div className="loading">Cargando TRM...</div>;
   if (error) return <div className="error">Error: {error}</div>;
   if (!trmData) return <div className="no-data">No hay datos de TRM</div>;
+  if (error) return (
+  <div>
+    Error: {error}
+    <button onClick={retry}>Reintentar</button>
+  </div>
+);
 
   return (
     <div className="app-container">
